@@ -2,7 +2,7 @@
 This is an armor overhaul inspired by the one made by lekousin. It is much lighter, being less about new things and more about tweaking existing things.
 
 # Features
- - 3 new configurations to existing armors.
+ - 5 new configurations to existing armors.
 
 # Thanks to...
  - lekousin - for most of the original coding (mostly modified).
