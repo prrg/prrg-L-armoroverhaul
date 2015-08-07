@@ -4,7 +4,7 @@
 	"author" : "Prrg, with help of a load of other people",
 	"contact" : "https://github.com/prrg/prrg-L-armoroverhaul",
 	"version" : "alpha r1",
-	"priority" : 68, -- MORE THAN 9000
+	"priority" : 68,
 	"hooks" : [
 		{ 	
 			"hook_id" : "lib/tweak_data/upgradestweakdata",
