@@ -1,0 +1,14 @@
+{
+	"name" : "prrg's Light Armor Overhaul",
+	"description" : "Tweaks the armor system on PAYDAY2"
+	"author" : "Prrg, with help of a load of other people",
+	"contact" : "https://github.com/prrg/prrg-L-armoroverhaul",
+	"version" : "alpha r1",
+	"priority" : 68, -- MORE THAN 9000
+	"hooks" : [
+		{ 	
+			"hook_id" : "lib/tweak_data/upgradestweakdata",
+			"script_path" : "armor-ov.lua"
+		}
+	]
+}
