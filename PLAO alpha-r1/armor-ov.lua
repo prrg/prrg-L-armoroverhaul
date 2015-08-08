@@ -37,7 +37,7 @@ function UpgradesTweakData:_init_pd2_values()
 	}
  -- Only value that is the same as in-game.
 	self.values.player.body_armor.dodge = {
-		0.255,
+		0.155,
 		-0.05,
 		-100,
 		-100,
