@@ -8,20 +8,20 @@ function UpgradesTweakData:_init_pd2_values()
 	init_pd2(self)
 	self.values.player.body_armor.armor = {
 		-2,
-		0.5,
+		0.45,
 		-100,
 		-100,
-		10,
+		15,
 		20,
 		20.5
     }
  -- Armor won't go negative, negative values are actually read as 0. Values here are trial and error until you get what you want, really.
 	self.values.player.body_armor.movement = {
 		1.323,
-		1.1,
+		1.087,
 		-100,
 		-100,
-		1.0,
+		1.023,
 		0.5,
 		0.7
 	}
@@ -37,11 +37,11 @@ function UpgradesTweakData:_init_pd2_values()
 	}
  -- Only value that is the same as in-game.
 	self.values.player.body_armor.dodge = {
-		0.155,
+		0.15,
 		0,
 		-100,
 		-100,
-		-1,
+		-0.37,
 		-1,
 		-1
 	}
