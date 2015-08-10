@@ -8,12 +8,12 @@ function UpgradesTweakData:_init_pd2_values()
 	init_pd2(self)
 	self.values.player.body_armor.armor = {
 		-2,
-		0.45,
+		0.5,
 		-100,
 		-100,
 		15,
 		20,
-		20.5
+		20
     }
  -- Armor won't go negative, negative values are actually read as 0. Values here are trial and error until you get what you want, really.
 	self.values.player.body_armor.movement = {
@@ -31,17 +31,17 @@ function UpgradesTweakData:_init_pd2_values()
 		27,
 		-100,
 		-100,
-		20,
+		24,
 		0,
 		9
 	}
  -- Only value that is the same as in-game.
 	self.values.player.body_armor.dodge = {
 		0.15,
-		0,
+		-0.05,
 		-100,
 		-100,
-		-0.37,
+		-0.35,
 		-1,
 		-1
 	}
@@ -51,9 +51,9 @@ function UpgradesTweakData:_init_pd2_values()
 		1,
 		-100,
 		-100,
-		0.1,
-		0.8,
-		0.6
+		0.5,
+		0.3,
+		0.1
 	}
  -- Damage Shake != Steadiness. Damage Shake is the opposite of Steadiness, which means, if you Damage Shake is high, your Steadiness will be lower.
 	self.values.player.body_armor.stamina = {
@@ -63,7 +63,7 @@ function UpgradesTweakData:_init_pd2_values()
 		-100,
 		0.1,
 		0.4,
-		0.6
+		0.5
 	}
  -- Trial and error, again.
 	end
