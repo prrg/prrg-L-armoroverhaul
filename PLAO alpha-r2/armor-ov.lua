@@ -1,5 +1,5 @@
  -- Value order: Suit, LBV, <not actually needed>, <not actually needed>, Flak Jacket, CTV and ICTV.
- -- The -0 values go for the Ballistic Vest and the Heavy Ballistic Vest. They're bugged/hidden from the view, because they're USELESS.
+ -- The -100 values go for the Ballistic Vest and the Heavy Ballistic Vest. They're bugged/hidden from the view, because they're USELESS.
  -- Code by lekousin.
 init_pd2 = UpgradesTweakData._init_pd2_values
 player_def = UpgradesTweakData._player_definitions
@@ -8,20 +8,20 @@ function UpgradesTweakData:_init_pd2_values()
 	init_pd2(self)
 	self.values.player.body_armor.armor = {
 		-2,
-		1,
+		0.5,
 		-100,
 		-100,
-		10,
+		15,
 		20,
-		20.5
+		20
     }
  -- Armor won't go negative, negative values are actually read as 0. Values here are trial and error until you get what you want, really.
 	self.values.player.body_armor.movement = {
-		1.3,
-		1,
+		1.323,
+		1.087,
 		-100,
 		-100,
-		1.1,
+		1.023,
 		0.5,
 		0.7
 	}
@@ -31,17 +31,17 @@ function UpgradesTweakData:_init_pd2_values()
 		27,
 		-100,
 		-100,
-		20,
+		24,
 		0,
 		9
 	}
  -- Only value that is the same as in-game.
 	self.values.player.body_armor.dodge = {
-		0.20,
+		0.15,
 		-0.05,
 		-100,
 		-100,
-		-1,
+		-0.35,
 		-1,
 		-1
 	}
@@ -51,9 +51,9 @@ function UpgradesTweakData:_init_pd2_values()
 		1,
 		-100,
 		-100,
-		0.1,
-		0.8,
-		0.6
+		0.5,
+		0.3,
+		0.1
 	}
  -- Damage Shake != Steadiness. Damage Shake is the opposite of Steadiness, which means, if you Damage Shake is high, your Steadiness will be lower.
 	self.values.player.body_armor.stamina = {
@@ -61,9 +61,9 @@ function UpgradesTweakData:_init_pd2_values()
 		0.975,
 		-100,
 		-100,
-		0.2,
+		0.1,
 		0.4,
-		0.6
+		0.5
 	}
  -- Trial and error, again.
 	end

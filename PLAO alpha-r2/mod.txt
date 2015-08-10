@@ -3,12 +3,16 @@
 	"description" : "Tweaks the armor system on PAYDAY2"
 	"author" : "Prrg, with help of a load of other people",
 	"contact" : "https://github.com/prrg/prrg-L-armoroverhaul",
-	"version" : "alpha r1",
+	"version" : "alpha r2",
 	"priority" : 68,
 	"hooks" : [
 		{ 	
 			"hook_id" : "lib/tweak_data/upgradestweakdata",
 			"script_path" : "armor-ov.lua"
+		},
+		{ 	
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "customstrings_plao.lua"
 		}
 	]
 }
