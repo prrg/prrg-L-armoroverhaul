@@ -1,5 +1,4 @@
- -- Value order: Suit, LBV, <not actually needed>, <not actually needed>, Flak Jacket, CTV and ICTV.
- -- The -100 values go for the Ballistic Vest and the Heavy Ballistic Vest. They're bugged/hidden from the view, because they're USELESS.
+ -- Value order: Suit, LBV, Ballistic Vest, Heavy Ballistic Vest, Flak Jacket, CTV and ICTV.
  -- Code by lekousin.
 init_pd2 = UpgradesTweakData._init_pd2_values
 player_def = UpgradesTweakData._player_definitions
@@ -31,7 +30,7 @@ function UpgradesTweakData:_init_pd2_values()
 		27,
 		-100,
 		-100,
-		24,
+		18,
 		0,
 		9
 	}
