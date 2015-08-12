@@ -5,6 +5,12 @@
 	"contact" : "https://github.com/prrg/prrg-L-armoroverhaul",
 	"version" : "alpha r2",
 	"priority" : 68,
+        "updates" : [
+                {
+                        "revision" : 2,
+                        "identifier" : "plaoalpha",
+                }
+        ]
 	"hooks" : [
 		{ 	
 			"hook_id" : "lib/tweak_data/upgradestweakdata",
